@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>NÁHĽAD – Vianočné Slovensko - tradície, chute a zážitky, ktoré spájajú</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<style>
+body { background: #f5f5f5; }
+.nahlad-pruh { background: #fa6900; color: #fff; font-size: 14px; padding: 6px 12px; text-align: center; }
+.clanok { background: #fff; max-width: 1204px; margin: 24px auto; padding: 24px 32px 48px; }
+img { max-width: 100%; }  /* globálne pravidlo webu slovakia.travel (stĺpec článku 1140 px) */
+.nahlad-admin { color: #888; border: 1px dashed #bbb; padding: 8px 14px; margin-bottom: 24px; }
+.nahlad-admin .stitok { font-size: 12px; text-transform: uppercase; color: #fa6900; font-weight: bold; }
+.nahlad-admin h1 { color: #888; font-size: 28px; }
+</style>
+</head>
+<body>
+<div class="nahlad-pruh">NÁHĽAD na kontrolu – článok ešte nie je zverejnený. Hlavný nadpis a perex doplní redakcia v admine.</div>
+<main class="clanok">
+<div class="nahlad-admin"><div class="stitok">Nadpis H1 a perex – NIE SÚ súčasťou HTML, doplní ich redakcia v admine (tu len pre úplnosť)</div>
+<h1>Vianočné Slovensko - tradície, chute a zážitky, ktoré spájajú</h1>
+	<p>Advent nie je len obdobím duchovnej prípravy na Vianoce. Je to čas, keď sa na chvíľu spomalí každodenný zhon, stretávame sa s blízkymi a nachádzame priestor na zážitky, ktoré počas roka často odkladáme. Sviatočná atmosféra postupne zapĺňa malé dedinky aj veľké mestá a Slovensko sa premieňa na rozprávkovú zimnú krajinu.</p>
+	<p>Práve advent je skvelou príležitosťou vydať sa na poznávanie našich regiónov. Návštevu miest, ktoré ste dosiaľ neobjavili, môžete spojiť s vianočnými trhmi či remeselnými podujatiami a popri pamiatkach spoznať i miestne zvyky, šikovných výrobcov a originálnu tvorbu. K tomu patria vône a chute sviatočného obdobia, od tradičných špecialít až po modernejšie gastronomické prekvapenia.</p>
+	<p>Vianočné trhy, malé dielne aj tvorivé workshopy sú zároveň miestom, kde môžete nájsť darčeky s príbehom. Alebo si ich dokonca sami vyrobiť. Ručne zdobená ozdoba na stromček, voňavé medovníky od majstrov svojho remesla či výrobok od lokálneho tvorcu dávajú sviatkom osobnejší rozmer. </p>
+	<p>Pripomínajú, že Vianoce nie sú len o hojnosti, ale predovšetkým o spolupatričnosti, podpore lokálnych komunít a úcte k tradíciám, ktoré sa odovzdávajú z generácie na generáciu. Vyrazte preto za sviatočnými zážitkami, objavte vianočnú atmosféru slovenských regiónov a doprajte si chvíle, ktoré k tomuto obdobiu neodmysliteľne patria.</p>
+	<p>SLOVAKIA TRAVEL vám spolu s krajskými a oblastnými organizáciami cestovného ruchu želá Vianoce plné lásky, porozumenia, spokojnosti a krásnych spoločných chvíľ.</p>
+</div>
+<!-- ===== ZAČIATOK HTML NA VLOŽENIE (rovnaké ako clanok.html) ===== -->
+<style>
+	/* Prvé DIV sekcie */
+	.section {
+		width: 100%;
+		margin: 30px 0;
+		overflow: hidden;
+
+	}
+
+	/* Podradené DIV pre skrývanie obsahu */
+	.content {
+		margin: 0 auto;
+	}
+
+	.hidden-content {
+		display: none;
+		margin-top: 10px;
+	}
+
+	/* Tlačidlo: Zobraziť viac/menej */
+	.toggle-button {
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: #0056a3;
+		text-align: left;
+		/* Zarovná text naľavo */
+		padding: 0;
+		margin-top: 10px;
+		display: block;
+		/* Zabezpečí, že tlačidlo bude na novom riadku */
+		font-weight: bold;
+	}
+
+	.toggle-button:hover {
+		color: #fa6900;
+	}
+
+	/* Vnútorné DIV - pozícia textu a fotografií */
+	.gallery-placeholder,
+	.breadcrumb-wrapper {
+		display: none;
+		visibility: hidden;
+	}
+
+	h2 {
+		padding-top: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	/* Kontainer pre DVA obrázky */
+	.image-container {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.img-left,
+	.img-right {
+		width: 48%;
+		aspect-ratio: 3 / 2;
+		cursor: zoom-in;
+	}
+
+	.img-left img,
+	.img-right img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.img-left-float {
+		width: 48%;
+		float: left;
+		margin: 20px 45px 20px 0;
+		cursor: zoom-in;
+	}
+
+	.img-right-float {
+		width: 48%;
+		float: right;
+		margin: 20px 0 20px 45px;
+		cursor: zoom-in;
+	}
+
+	.photo-credit {
+		font-size: 12px;
+		color: #666;
+		text-align: right;
+		margin-top: 5px;
+	}
+
+	/* Kontainer pre TRI obrázky */
+	.image-container-3 {
+		display: flex;
+		justify-content: space-between;
+		gap: 2%;
+		width: 100%;
+		margin-bottom: 40px;
+		box-sizing: border-box;
+		flex-wrap: nowrap;
+	}
+
+	.img-block {
+		width: 32%;
+		aspect-ratio: 1 / 1;
+		cursor: zoom-in;
+		transition: transform 0.3s ease;
+		position: relative;
+		z-index: 1;
+	}
+
+	.img-block img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		transition: transform 0.3s ease;
+	}
+
+	.zoom-wrapper {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10000;
+		text-align: center;
+		max-width: 90vw;
+		max-height: 90vh;
+		overflow: auto;
+		padding: 0;
+		background: transparent;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	.zoomed {
+		max-width: 100%;
+		max-height: 80vh;
+		min-width: 90vw;
+		min-height: 80vh;
+		width: auto;
+		height: auto;
+		object-fit: contain;
+		cursor: zoom-out;
+		display: block;
+		margin: 0 auto;
+		box-shadow: none;
+		background: none;
+	}
+
+	.zoom-caption {
+		margin-top: 10px;
+		/* Titulok tesne pod obrázkom */
+		font-size: 16px;
+		color: #fff;
+		/* Biely text */
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+		/* Zabezpečíme čitateľnosť */
+		background: none;
+	}
+
+	.overlay-3 {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.6);
+		z-index: 9998;
+		display: none;
+	}
+
+	.overlay-3.active {
+		display: block;
+	}
+
+	/* Tlačidlo pod blogovým článkom */
+	.blog-back-btn {
+		background-color: #0056a3;
+		color: #ffffff;
+		font-weight: bold;
+		border: none;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		cursor: pointer;
+		transition-duration: 0.4s;
+		border-radius: 0;
+		position: absolute;
+	}
+
+	.blog-back-btn:hover {
+		background-color: #fa6900;
+		color: #ffffff;
+	}
+
+	/* Media query pre mobilné zariadenia */
+	@media (max-width: 768px) {
+
+		/* Zmena smeru flexboxu na stĺpec pri šírke obrazovky do 768px */
+		.image-container {
+			flex-direction: column;
+			/* Obrázky sa zoradia pod seba */
+			gap: 15px;
+		}
+
+		/* Obrázky budú mať 100% šírku pri mobilných zariadeniach */
+		.img-left,
+		.img-right,
+		.img-left-float,
+		.img-right-float {
+			width: 100%;
+			height: auto;
+			float: none;
+			margin: 15px 0 15px 0;
+		}
+
+		.photo-credit {
+			font-size: 9px;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 990px) {
+		.zoom-caption {
+			margin-top: 0px;
+		}
+	}
+
+	@media (hover: none) and (pointer: coarse) {
+		.img-block {
+			cursor: zoom-in;
+		}
+	}
+</style>
+
+<div class="overlay-3" id="overlay-3"></div>
+
+<div class="section">
+
+	<h2><b>Príďte si vychutnať advent v Bratislave</b></h2>
+	<p>Keď sa na Hlavnom námestí rozsvieti vianočný stromček, medzi stánkami zavonia varené víno a z Františkánskeho námestia sa ozvú prvé koledy, v <strong>Bratislave</strong> sa začínajú Vianoce. Zohrejte si ruky pri horúcom punči, vyberte pod stromček darček od miestneho remeselníka a prejdite sa k Vianočnému lesu. </p>
+	<p><strong>Vianočné trhy v Bratislave</strong> začali 26. novembra. O deň neskôr sa rozsvietila pätnásťmetrová jedľa zo Záhorskej Bystrice a slávnostne sa otvorili Bratislavské Vianoce. Trhy potrvajú v hlavnom meste až do 3. januára 2027, s prestávkou počas 24. a 25. decembra. Keď sa zastavíte pri stánkoch na niečo teplé, všimnite si označenie Vianočný tip. Pod ním nájdete napríklad cesnakovú lokšu za 1,50 eura či bryndzové halušky za 5 eur. Za zvýhodnené ceny ponúkajú stánky aj vybrané nápoje a drobné darčeky. Zároveň si tu môžete vybrať ručne robenú keramiku, drevené svietniky a hračky, sviečky, textilné drobnosti alebo ilustrované kalendáre. Na sviatočný stôl si môžete odniesť medovníky a na stromček ozdoby zo slamy či keramiky. </p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/bkis_vianoce2025-7423.webp" alt="Vianočné trhy v Bratislave" title="Vianočné trhy v Bratislave" onclick="toggleZoom(this)" loading="lazy">
+	</div>
+	<br>
+	<p>Ak zatúžite po <strong>umeleckom zážitku</strong>, stačí prejsť na susedné Františkánske námestie, kde sa od štvrtka do nedele koná sprievodný program. Vo štvrtok večer hrajú dídžeji, počas víkendu sa na pódiu striedajú kapely, spevácke zbory, folklórne súbory i žiaci umeleckých škôl. Ak si chcete koledy zaspievať, 4. decembra sa pridajte k spoločnému spevu na podujatí Do spevu! Na Primaciálnom námestí si potom pozrite Vianočný les so stromčekmi, ktoré vyzdobili bratislavskí školáci. V neďalekej Prívetivej zóne sa cez víkendy konajú tvorivé dielne pre rodiny.</p>
+	<p>Za adventnými podujatiami sa môžete vydať aj do ďalších kútov Bratislavy. Vianočný program pokračuje v koncertných sálach, tržniciach i mestských častiach. S deťmi sa 5. decembra vyberte za <strong>Bratislavským Mikulášom</strong>. Výprava sa začne pri Albrechtovom dome a zamieri do Sadu Janka Kráľa. Na večernú prechádzku centrom vás od 27. novembra pozýva <strong>bezplatná hra Škriatkovo kúzlo</strong>. Od 4. do 6. decembra môžete na <strong>Račianskych vianočných trhoch</strong> ochutnať vína miestnych vinohradníkov a 12. decembra si v Koncertnej sieni Klarisky vypočuť ľudové vianočné piesne a koledy na <strong>koncerte „Vinšujeme tomu domu“</strong>.</p>
+	<p>Za lokálnymi darčekmi zavítajte 12. decembra na <strong>Zimný Dobrý trh do Novej tržnice</strong>, kde stánky doplnia koncerty a umelecké inštalácie. Od 13. do 22. decembra nájdete v Starej tržnici pod jednou strechou lokálny dizajn, remeselné potraviny aj knihy od domácich vydavateľstiev. Ďalšie koncerty, predstavenia, trhy a podujatia pre deti nájdete v <a href="https://bratislavskevianoce.sk/program/" target="_blank">programe Bratislavských Vianoc</a>. </p>
+	<p>Ak si chcete návštevu vianočných trhov spojiť s prehliadkou mesta, ďalšie tipy na výlet objavíte na <a href="https://www.visitbratislava.com/sk/" target="_blank">https://www.visitbratislava.com/sk/</a>.</p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Čaro predvianočného obdobia v Nitrianskom kraji</b></h2>
+	<p>Predvianočné dni v <strong>Nitrianskom kraji</strong> sa dajú stráviť aj ďaleko od nákupných centier. <br/>Na námestiach pribudnú stánky s remeselnými výrobkami, na Agrokomplexe zavonia čerstvé pečivo a v Komárne sa po zotmení rozsvieti Komárňanská pevnosť.</p>
+	<p>Sviatočné obdobie zároveň patrí miestnym výrobcom a remeselníkom. Ich keramika, textil, med, džemy, koreniny, prírodná kozmetika i regionálne darčekové balíčky prinášajú pod stromček viac než samotný výrobok. Nesú rukopis svojho tvorcu a pôvod v regióne, z ktorého pochádzajú.</p>
+	<p>V samotnej Nitre patria Svätoplukovo námestie a pešia zóna od 27. novembra do 31. decembra <strong>Nitrianskemu vianočnému mestečku</strong>. Tradičné trhy dopĺňajú remeselné výrobky, občerstvenie a kultúrny program. Počas decembra sa v meste uskutočnia aj Svetielka Vianoc, Mikuláš, vianočný koncert a Spievajúca Nitra.</p>
+	<p>Pokojnejšiu zastávku ponúkajú <strong>Zlaté Moravce</strong>. Tamojšie múzeum pripravilo <strong>výstavu Kolekcia vianočných spomienok</strong>, ktorá približuje tradíciu zdobenia stromčeka a históriu vianočných ozdôb. Prístupná je od 30. októbra 2026 do 27. januára 2027. Pešia zóna v <strong>Štúrove</strong> dostane počas adventu sviatočnú podobu vo viacerých termínoch. <strong>Vianočné trhy</strong> sa tu uskutočnia 5. a 6. decembra a následne 13. a 19. decembra.</p>
+	<p>Špeciálnu atmosféru zažijete tento rok opäť v <strong>Komárne</strong>. Tamojšia pevnosť má od 13. novembra vo večerných hodinách úplne inú podobu. <strong><a href="https://storyoflights.sk/park/komarno" target="_blank">Svetelný park Story of Lights</a></strong> ju tento rok premení na Vesmírne cesty s veľkými svetelnými objektami. Park je otvorený denne (okrem 24. decembra) od 17.00 do 21.00 h až do 10. januára 2027.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/fantasy-light-park.webp" alt="Svetelný park Story of Lights v Komárne" title="Svetelný park Story of Lights v Komárne" onclick="toggleZoom(this)" loading="lazy">
+		<p class="photo-credit">Foto: KOCR NK</p>
+	</div>
+	<br>
+	<p>Výlet do Komárna sa dá spojiť i s vianočným nákupom. <strong>Darčekové balíčky Chute Podunajska </strong>prichádzajú tento rok v novom grafickom šate a spájajú produkty miestnych výrobcov. V krabičkách sa stretávajú džemy, med, koreniny, čokoláda, lokálne oleje a ďalšie špeciality z Podunajska. Dostupné sú v Komárňanskej informačnej kancelárii na Námestí generála Klapku.</p>
+	<p>Ak hľadáte originálne darčeky pre svojich blízkych, <strong>vlastnú regionálnu značku</strong>, ktorá označuje miestne remeselné, poľnohospodárske a potravinárske produkty i služby, má aj <strong>Ponitrie</strong>. Medzi výrobkami nájdete ručne modelovanú keramiku, ľanový textil s krížikovou výšivkou, prírodnú kozmetiku a mnoho ďalších, ktoré nájdete v <strong><a href="https://visitnitra.eu/regionalny-produkt-ponitrie/katalog-produktov/" target="_blank">katalógu produktov</a></strong>. </p>
+	<p>Viac informácií o celom Nitrianskom kraji sa dozviete na <a href="https://krizomkrajom.sk/" target="_blank">https://krizomkrajom.sk/</a></p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Objavte advent plný vôní, tradícií a rozprávkových zážitkov v Trenčianskom kraji</b></h2>
+	<p>Keď sa mestá a dedinky zahalia do svetelnej výzdoby, z námestí sa začne šíriť vôňa punču, medovníkov a vianočných dobrôt a v uliciach zaznejú prvé koledy, prichádza jedno z najkrajších období roka. Advent v <strong>Trenčianskom kraji</strong> ponúka množstvo príležitostí, ako si vychutnať predvianočný čas. Či už vás lákajú tradičné vianočné trhy, remeselné výrobky, koncerty, stretnutia s Mikulášom alebo pokojnejšie chvíle v historických priestoroch či v prírode. Na svoje si prídu rodiny s deťmi aj tí, ktorí si chcú jednoducho užiť sviatočnú atmosféru.</p>
+	<p>Záver novembra priniesol do <strong>Trenčína</strong> prvé výrazné náznaky blížiacich sa Vianoc. <strong>Historické centrum</strong> postupne rozžiarilo sviatočné osvetlenie, na námestí vyrástli vianočné stánky a rozsvietil sa i mestský stromček. Tento rok mal začiatok adventu osobitný rozmer – uskutočnil sa totiž v rámci podujatia <strong>Fiesta mesta</strong>, ktoré uzavrie rok Trenčína v pozícii Európskeho hlavného mesta kultúry 2026. Návštevníci mohli zároveň zažiť premiéru <strong>projektu Fiesta most</strong>, novej mestskej promenády nad riekou Váh.</p>
+	<p>Vianočné podujatie <strong>Čaro Vianoc pod hradom</strong> potrvá do 23. decembra. Námestie je plné predajcov s ručne vyrábanými dekoráciami, remeselnými výrobkami a tradičnými pochúťkami, vrátane medu alebo vianočného pečiva. K sviatočnej nálade prispeje aj pestrý hudobný program. Na pódiu sa vystriedajú kapely Puding pani Elvisovej, Le Payaco, Korben Dallas či Nela Pocisková, ale i regionálne hudobné skupiny a folklórne súbory. </p>
+	<p>Na svoje si prídu tiež rodiny s deťmi, ktoré čaká stretnutie s Mikulášom, živá Betlehemská maštaľka a divadelné predstavenia. Sviatočné ulice oživia aj netradičné postavy anjelov na chodúľoch a svetelné interaktívne aktivity. Malých návštevníkov môže zaujať <strong>pátracia hra Tajomstvá vianočných symbolov: misia Európa</strong>, vďaka ktorej sa pri objavovaní mesta zoznámia s príbehmi a významom vianočných symbolov.</p>
+	<p>Adventné zážitky sa neobmedzia iba na centrum mesta. Sviatočný program zavíta 14. decembra i na <strong>Trenčiansky hrad</strong>, kde historické nádvorie a priestory hradu vytvoria osobitnú kulisu na predvianočné stretnutie.</p>
+	<p>Adventný čas má svoje čaro aj v menších mestách. V <strong>Ilave</strong> sa 4. decembra uskutočnia <strong>Mikulášske trhy</strong> na Mierovom námestí. Od 8.00 do 18.00 h bude pripravený predajný i kultúrny program. Dopoludnia vystúpia deti z materských škôl, popoludní sa o hudobnú náladu postará kapela Pell-Mell 59. Vyvrcholením dňa bude príchod svätého Mikuláša v sprievode anjelov a čertov, ktorý najmenším rozdá balíčky.</p>
+	<p>V Ilave však advent nebude patriť iba jednému dňu. Každú adventnú nedeľu sa obyvatelia aj návštevníci stretnú pri <strong>spoločnom zapaľovaní sviec na adventnom venci</strong>. Prvá svieca sa rozžiarila už 29. novembra, druhá 4. decembra počas Mikulášskych trhov, tretia 13. decembra a posledná 20. decembra. I tieto stretnutia s hudobným programom vytvoria priestor na chvíľu spomaliť a pripomenúť si, že Vianoce sa nezadržateľne blížia.</p>
+	<p>V <strong>Nemšovej</strong> sa predvianočné putovanie môže zmeniť na malú rozprávkovú výpravu. Ranch 13 vytvoril <strong>tematickú Vianočnú uličku</strong>, v ktorej sa návštevníci až do 3. januára 2027 stretnú s motívmi známych rozprávok a sviatočných zvykov. Najmenších poteší blízkosť zvieratiek, možnosť povoziť sa na koni, alebo napísať list Ježiškovi. Chýbať nebude ani opekanie marshmallow a občerstvenie vo vianočných stánkoch. V <strong>Soblahove</strong> sa zase 12. decembra od 10.00 do 18.00 h uskutoční <strong>Vianočný market</strong> v Chate pod Ostrým vrchom, ktorý môže byť príjemným cieľom predvianočného výletu.</p>
+	<p>V <strong>Partizánskom</strong> sa od 18. do 20. decembra otvorí tradičné <strong>Vianočné mestečko</strong> na Námestí SNP. Je súčasťou širšieho programu <strong>Vianočný čas 2026</strong>, ktorý bude pokračovať počas adventu až do polovice januára. Návštevníkov čakajú predajné stánky otvorené denne od 9.00 do 21.00 h, kultúrne vystúpenia aj tvorivé aktivity. Piatkové popoludnie 18. decembra spríjemnia tvorivé dielne a koncerty skupiny Noví známi a Martiny Comisso.</p>
+	<p>Sobota 19. decembra sa začne už dopoludnia vystúpením Seniorov z Baťovian a predajom zabíjačkových špecialít. O hudobný program sa postarajú skupiny Progres, Petra Zubčáková &amp; Band a večer i obľúbené Lojzo. V nedeľu o 16.45 h sa po vystúpení Acapella for You návštevníci stretnú pri príhovore primátora a rozsvietení poslednej adventnej sviece. Súčasťou stretnutia bude aj tradičné pohostenie v podobe vína, punču a čaju. O 17.00 h ožije námestie živým betlehemom, v ktorom sa predstavia folklórne súbory Jánošík, Fialka a Husiarik. Hudobnú bodku za víkendom pridá zoskupenie Trio Divas.</p>
+	<p>Vianočný program doplnia <strong>tradičné mestské trhy</strong>. V <strong>Prievidzi </strong>sa od 13. do 23. decembra otvoria <strong>Vianočné trhy</strong> na Námestí slobody.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/vianocne_trhy_prievidza_zdroj_mesto_prievidza.webp" alt="Vianočné trhy v Prievidzi" title="Vianočné trhy v Prievidzi" onclick="toggleZoom(this)" loading="lazy">
+		<p class="photo-credit">Foto: Mesto Prievidza</p>
+	</div>
+	<br>
+	<p>Ak sa chcete o Trenčianskom kraji dozvedieť viac, odporúčame <a href="https://www.trencinregion.sk/" target="_blank">https://www.trencinregion.sk/.</a></p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Žilinský kraj v znamení Vianoc - trhy, tradície a betlehemy</b></h2>
+	<p>Na množstvo zaujímavých podujatí sa počas adventu môžete tešiť aj v <strong>Žilinskom kraji</strong>. V samotnej <strong>Žiline</strong> odštartovali obľúbené <strong>vianočné trhy</strong> už 27. novembra a tento rok prinášajú i niekoľko noviniek. Sviatočné dianie sa rozšírilo za hranice tradičných lokalít aj do Sadu SNP s obnoveným tanečným pavilónom. Turistická informačná kancelária mesta myslela i na najmenších návštevníkov, pre ktorých pripravila <strong>novú pátraciu hru so zvedavým chlapcom Žilinkom</strong>. Rodiny s deťmi sa do nej môžu individuálne zapojiť až do 11. decembra 2026.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/vianocna-patracka-so-zilinkom.webp" alt="Vianočná pátračka so Žilinkom" title="Vianočná pátračka so Žilinkom" onclick="toggleZoom(this)" loading="lazy">
+		<p class="photo-credit">Foto: Fotobanka TIK Žilina</p>
+	</div>
+	<br>
+	<p>Ďalší zaujímavý adventný zážitok ponúkne 4. decembra o 18.00 h <strong>Kostol sv. Barbory</strong>. Počas <strong>špeciálnej adventnej prehliadky</strong> návštevníci spoznajú vzácny barokový mobiliár, krypty aj príbeh sv. Barbory. Nazrú tiež do Loretánskej kaplnky s oltárom a plastikou čiernej Madony a vypočujú si legendu o zázračnom prenesení domu Panny Márie z Nazareta do talianskeho Loreta. Sviatočnú atmosféru prehliadky na záver umocní krátky organový koncert.</p>
+	<p>Predvianočné obdobie v <strong>Turci </strong>ponúkne i tento rok príjemné spojenie tradícií, remesiel a komunitných podujatí. V <strong>Martine</strong> na vás 4. decembra čaká <strong>Vianočný punč v Turistickom informačnom centre</strong>, o deň neskôr zavíta na Divadelné námestie Mikuláš a 6. decembra priblíži tradičné sviatky podujatie <strong>Vianoce na dedine v Múzeu slovenskej dediny</strong>.</p>
+	<p>K atmosfére regiónu neodmysliteľne patria aj <strong>lokálne tradície a remeselná tvorba</strong>. V Turci pôsobí viacero remeselníkov a tvorcov, ktorí uchovávajú tradičné postupy a zároveň ich približujú dnešným návštevníkom. Patrí medzi nich <a href="https://ludova-tvorba.sk/" target="_blank">Anna Lučanská</a>, ktorá sa viac ako desať rokov venuje ľudovému remeselníctvu a tvorbe šúpoliek, adventných vencov či dekorácií z prírodných materiálov. <a href="https://www.vlastaart.sk/index.html" target="_blank">Vlasta Števková</a> pracuje s keramikou a sklom a organizuje i tvorivé workshopy, zatiaľ čo <a href="https://medovnikygitka.webnode.sk/" target="_blank">Margita Hűberová</a> zo Sučian prináša do predvianočného obdobia vôňu ručne zdobených medovníkov. Tradíciu práce s liečivými rastlinami rozvíja <a href="https://www.bylinkovydotyk.sk/" target="_blank">Bylinkový Dotyk</a>, občianske združenie zamerané na obnovu a propagáciu ľudových tradícií bylinárstva v Turci. </p>
+	<p>Bohatý adventný program pripravila aj Rajecká dolina. <strong>Vianočné trhy v Rajci</strong> sa uskutočnia 5., 11., 12., 18., 19. a 20. decembra, ďalšie <strong>trhy</strong> privítajú návštevníkov 4. decembra <strong>v Konskej a Zbyňove</strong> a 11. decembra <strong>v Kunerade</strong>. <strong>V Konskej</strong> sa 19. decembra uskutočnia <strong>Rozprávkové vianočné trhy </strong>a 20. decembra ponúknu <strong>Rajecké Teplice benefičný adventný koncert</strong> s Petrom Adamovom, Lenkou Jedinákovou a speváckym zborom Svetlušky. Sviatočné obdobie uzavrú <strong>tradičné podujatia na hrade Lietava</strong>, kde sa návštevníci stretnú 26. decembra na Štefana a 31. decembra na Silvestra.</p>
+	<p>K vianočným sviatkom neodmysliteľne patria i betlehemy a v regióne ich môžete objaviť hneď niekoľko. V Žiline púta pozornosť <strong>unikátny Žilinský betlehem</strong> na Mariánskom námestí. Ručne vyrezávaný celodrevený betlehem v životnej veľkosti aj tento rok dotvára sviatočnú atmosféru historického centra mesta. Za návštevu stojí i <strong>Terchovský betlehem</strong>, ktorý je stálou súčasťou Kostola sv. Cyrila a Metoda v Terchovej. Hoci ho možno obdivovať počas celého roka, osobitnú atmosféru získava práve počas adventu a vianočných sviatkov.</p>
+	<p>Zaujímavé betlehemy nájdete aj v Martine. <strong>Drevený betlehem pri Farskom kostole sv. Martina</strong>, dielo rezbára Miroslava Kalanku, vznikol z viac ako 60-ročného topoľa, ktorý pôvodne rástol pri Slovenskej národnej knižnici. Stvárňuje Svätú rodinu spolu s tradičnými betlehemovými postavami. Nenechajte si ujsť ani <strong><a href="https://www.skanzenmartin.sk/" target="_blank">historický betlehem v SNM – Múzeu slovenskej dediny</a></strong>, ktorý je inštalovaný v priestoroch dreveného kostola z Rudna a pochádza zo zbierok SNM v Martine.</p>
+	<p>Výnimočné miesto má <strong>pohyblivý drevený Slovenský betlehem v Rajeckej Lesnej</strong>, ktorý vytvoril majster rezbár Jozef Pekara, rodák z Rajeckých Teplíc. Na svojom monumentálnom diele pracoval viac ako 15 rokov a dokončil ho v roku 2000. Betlehem je dlhý 8,5 metra, široký 2,5 metra a vysoký 3 metre, vďaka čomu sa radí medzi najväčšie vyrezávané betlehemy v Európe a zároveň predstavuje najväčšiu drevorezbu svojho druhu na svete. Tvorí ho približne <strong>300 postáv, polovica z nich je pohyblivá</strong>. Medzi jednotlivými výjavmi možno spoznať slovenské hrady, katedrály, vrchy i modernejšie stavby. Expozícia pritom nezobrazuje iba Kristovo narodenie v Betleheme, ale približuje aj dejiny Slovenska, život, zvyky a tradičné pracovné činnosti slovenského ľudu.</p>
+	<p>Všetko podstatné o Žilinskom kraji nájdete na <a href="https://www.zilinskyturistickykraj.sk/" target="_blank">https://www.zilinskyturistickykraj.sk/</a>.</p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Remeslá, vianočné chute a stretnutia pod rozsvietenými stromčekmi, pozývame vás stráviť advent na Kysuciach</b></h2>
+	<p>Vôňa punču, medovníkov a kapustnice, koledy aj radosť detí pri príchode Mikuláša. Advent na <strong>Kysuciach </strong>patrí spoločným stretnutiam, miestnym tradíciám a remeslám. Mestá a obce pripravujú vianočné trhy, koncerty i podujatia, ktoré pripomenú chute a zvyky našich predkov. Pre návštevníkov sú pozvaním spomaliť a spojiť predvianočný výlet s objavovaním regiónu.</p>
+	<p>Sviatočnou atmosférou dýcha Matičné námestie pred Domom kultúry v <strong>Čadci</strong>, kde je od 28. novembra 2026 do 10. januára 2027 <strong>Vianočné mestečko</strong>. Čakajú vás predajné stánky, kultúrny program a mobilné klzisko, ale predovšetkým priestor na stretnutia počas adventu, vianočných sviatkov i začiatku nového roka. </p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/696cc728bef57.webp" alt="Vianočné mestečko v Čadci" title="Vianočné mestečko v Čadci" onclick="toggleZoom(this)" loading="lazy">
+	</div>
+	<br>
+	<p>Na Palárikovej ulici v pešej zóne sa <strong>Vianočné trhy</strong> uskutočnia 17. a 18. decembra 2026. Ponúknu výrobky, remeselné predmety a inšpiráciu na darčeky. </p>
+	<p>Adventný program v <strong>Krásne nad Kysucou</strong> otvorilo ešte 29. novembra 2026 rozsvietenie prvej adventnej sviece na námestí pred radnicou. <strong>Vianočné trhy</strong> pred kultúrnym domom sú naplánované na tri decembrové piatky – 4., 11. a 18. decembra 2026. V každom z týchto termínov sa o 18.00 h začne kultúrne vystúpenie.</p>
+	<p>Rodiny s deťmi poteší 5. decembra o 16.00 h <strong>príchod svätého Mikuláša</strong> na námestie pred kultúrnym domom. Nasledujúci deň, 6. decembra, sa pri Kostole sv. Ondreja apoštola uskutočnia <strong>Ondrejovské hody</strong>. Hudobnú ponuku doplní vianočný koncert speváčky JANAIS 11. decembra o 19.00 h a vianočný koncert ZUŠ 17. decembra o 16.30 h.</p>
+	<p>Vianocami dýchajú aj ďalšie dedinky a mestečká na Kysuciach. Pri Obecnom úrade v <strong>Staškove</strong> sa 4. decembra 2026 uskutočnia <strong>Vianočné trhy</strong> spojené s príchodom Mikuláša. Stánky ponúknu medovníčky, medovníkové kostolíky a domčeky, vianočné ozdoby, svietniky i háčkované dekorácie. Návštevníci sa zahrejú punčom a horúcim čajom a ochutnajú pripravené občerstvenie.</p>
+	<p>O 18.00 h príde Mikuláš so svojimi pomocníkmi. Jeho tradičnou úlohou bude rozsvietiť obecný vianočný stromček. Pre deti sú pripravené mikulášske balíčky aj možnosť spoločného fotografovania. Po príhovore, rozsvietení stromčeka a úvodnom programe bude sviatočné stretnutie pokračovať koncertom vianočných piesní v amfiteátri pri obecnom úrade. </p>
+	<p>Aj <strong>Olešná</strong> spojí príchod sviatočného obdobia s remeslami. V piatok 4. decembra 2026 od 14.00 h sa v areáli obecného úradu uskutoční <strong>Remeselný Mikuláš</strong>. Návštevníkov čakajú vianočné remeselné trhy, horúci punč, občerstvenie a kultúrny program. Spoločné stretnutie doplní rozsvietenie vianočného stromčeka.</p>
+	<p>Chute spojené s rodinnými tradíciami pripomenie podujatie <strong>Kulinárske umenie našich mám</strong>, ktoré sa uskutoční 4. decembra 2026 od 14.00 h. v Kultúrnom dome Rudolfa Jašíka v <strong>Turzovke</strong>. Jeho cieľom je uchovávať kulinárske tradície a kultúrne dedičstvo predkov. <strong>Vianočné trhy</strong> sa následne budú v Turzovke konať 18. a 19. decembra 2026. Spoja predaj vianočných dobrôt s kultúrnym programom a sviatočnými stretnutiami.</p>
+	<p>Námestie pred obecným úradom vo <strong>Vysokej nad Kysucou</strong> ožije 5. decembra 2026 <strong>Adventnými trhmi</strong> spojenými s príchodom Mikuláša. Program sa začne o 12.30 h. Predstavia sa Ľudová hudba Muzička spod Grúňa, Dievčence z Vysokej a Folklórna skupina Karlovianka z Veľkých Karlovíc. Súčasťou bude vianočné pásmo žiakov ZŠ s MŠ E. A. Cernana a vianočný koncert skupiny TRACE z Čadce.</p>
+	<p><strong>Remeselnícky jarmok</strong> zase ponúkne typický vianočný tovar. K sviatočnému výletu budú patriť aj zabíjačkové výrobky a špeciality, kapustnica, punč a varené víno. O 17.00 h príde Mikuláš so sprievodom anjelov a čertov, rozdá deťom balíčky a rozsvieti vianočný stromček pred obecným úradom.</p>
+	<p>V nedeľu 6. decembra 2026 sa detské očká rozžiaria i pred Obecným úradom v <strong>Klokočove</strong>, kde sa uskutoční podujatie <strong>Mikuláš v obci Klokočov</strong>, spojené s <strong>vianočnými trhmi</strong>. V programe vystúpia Folklórna skupina Klokočov, deti zo ZŠ, MŠ a CVČ aj heligónkári. Nebude chýbať príchod svätého Mikuláša, rozsvietenie vianočného stromčeka a rozdávanie darčekov deťom. Stánky ponúknu domáce špeciality, vianočné dobroty a občerstvenie. </p>
+	<p>Viac inšpirácie na výlety a pobyty sú dostupné na <a href="https://www.regionkysuce.sk/sk/" target="_blank">https://www.regionkysuce.sk/sk/</a>.</p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Kúzlo Vianoc v Banskobystrickom kraji - vôňa medovníkov, poctivé remeslá a pravá sviatočná atmosféra</b></h2>
+	<p>Keď sa zima zahryzne do konárov stromov a štíty našich hôr sa zahalia do bieleho šatu, v <strong>Banskobystrickom kraji</strong> ožije tá najkrajšia čarovná atmosféra v roku. Vianoce sú tu o vzácnych stretnutiach s ľuďmi, radosti z maličkostí, hrejivých dobrých skutkoch a najmä o kráse poctivých vecí. Prečítajte si výletný manuál plný tipov, kam sa vydať za vianočnou náladou, tradíciami a lokálnymi pokladmi v regióne.</p>
+	<p>Ak hľadáte to pravé čaro banskobystrických predvianočných dní, zavítajte priamo na <strong>Starú tržnicu v Banskej Bystrici</strong>. Od 10. až do 22. decembra sa tento priestor premení na magické miesto plné svetielok a radosti. Pripravených je <strong>15 tematických stánkov</strong>, ktoré budú doslova dýchať prekvapeniami. Predajcovia sa totiž budú pravidelne striedať, vďaka čomu sa počas trhov predstaví <strong>vyše 50 špičkových lokálnych producentov, farmárov a remeselníkov</strong> z celého kraja. Či už hľadáte poctivé domáce dobroty, originálne hračky pre deti alebo ručne robené doplnky, každý deň tu objavíte niečo nové.</p>
+	<p>Okrem nákupov a skvelej atmosféry je pre malých aj veľkých návštevníkov pripravené i niečo špeciálne. Počas adventných víkendov <strong>ožijú trhy kreatívnymi tvorivými dielničkami</strong>. Príďte si zaspomínať na staré zvyky a vyskúšať si výrobu vlastných vianočných ikebán, ktoré prinesú kúsok prírody do vášho domova, tradíciu pečenia domácich oblátok, zdobenie voňavých medovníkov či tvorbu vlastných ozdôb na stromček, s ktorými bude váš vianočný domov ešte osobitejší.</p>
+	<p>Atmosféru pravých slovenských Vianoc si však neužijete len v Banskej Bystrici. Vyberte sa na potulky po kraji a objavíte <strong>čaro vianočných mestečiek</strong>. Čaká na vás napríklad <strong>vianočná Kremnica</strong> (18. až 20. decembra). Historické mesto v objatí hôr ponúka kulisu ako z rozprávky, jeho stredoveké uličky navyše ožijú vianočnými koledami, vôňou medu a trblietavou výzdobou. Neopakovateľný zážitok pod Kráľovou hoľou ponúkajú <strong>vianočné trhy v depe v Telgárte</strong> (27. novembra až 20. decembra). Okrem atmosféry v historickom železničnom depe vás očarí aj pohľad na nádherne nasvietený viadukt. <strong>Vianočný Náš TRH Halič</strong> (19. decembra) v areáli Múzea Csontváry a Kaviarne Céder sa bude niesť v znamení príjemných rozhovorov. Užiť si môžete sprievodný program a ako darček si domov odniesť kúsok Novohradu priamo k vianočnému stolu.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/2025-12-14-kocr-infocesta-154.webp" alt="Nasvietený viadukt v Telgárte" title="Nasvietený viadukt v Telgárte" onclick="toggleZoom(this)" loading="lazy">
+	</div>
+	<br>
+	<p>Ak návštevu Banskobystrického kraja tento rok nestihnete, alebo preferujete pohodlný nákup z domu, nezúfajte. Podporiť poctivých tvorcov môžete kedykoľvek online prostredníctvom <strong>špeciálneho e-shopu <a href="https://www.regionalnepulty.sk" target="_blank">Regionálnepulty.sk</a></strong>. Nájdete tam to najlepšie, čo vzišlo spod rúk tamojších remeselníkov a producentov – od nádherných vianočných ozdôb a dekorácií až po originálne darčeky, ktoré potešia vašich blízkych a zároveň podporia lokálnu ekonomiku.</p>
+	<p>Zbaľte si dobrú náladu, teplý šál a príďte osláviť vianočný čas do Banskobystrického kraja. Všetky potrebné informácie sa dočítate na <a href="https://zahoramizadolami.sk/" target="_blank">https://zahoramizadolami.sk/</a></p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Advent na Horehroní bude patriť regionálnym výrobkom, remeslám a čarovným zážitkom v Brezne</b></h2>
+	<p>Vianočné obdobie je časom tradícií, vône sviatočných dobrôt, originálnych darčekov a stretnutí, ktoré vytvárajú tú pravú adventnú atmosféru. Na <strong>Horehroní </strong>bude aj tohtoročný advent príležitosťou objaviť šikovnosť miestnych výrobcov, spoznať regionálne tradície a vychutnať si nevšedné zážitky v uliciach mesta Brezno. Návštevníkov čakajú remeselné a lokálne výrobky, vianočné podujatia v historických priestoroch i zážitkové jazdy zimným turistickým vláčikom.</p>
+	<p><strong>Adventný program v Brezne</strong> obohatia nevšedné večerné zážitky v podobe komentovaného sprevádzania Mestskou vežou, ktoré sa uskutoční priamo v spoločnosti samotného Zvonára. Pod názvom <strong>Tajomstvá zvonára</strong> sa môžete vydať na objavnú cestu históriou veže, jej zvonov a príbehov, ktoré sa s týmto miestom spájajú. Zvonár vás prevedie zákutiami mestskej dominanty a priblíži vám jej tajomstvá v jedinečnej večernej atmosfére, len za svetla sviečok a lampášov. Sprevádzania sa uskutočnia počas adventných nedieľ, 13. a 20. decembra 2026 o 16:30 a 18:00 h.</p>
+	<p>Sviatočný program v Brezne vyvrcholí obľúbeným <strong>Ľadovým mestečkom</strong>, ktoré slávnostne otvorí svoje brány 18. decembra 2026 o 16:00 h a návštevníkov bude sprevádzať až do 6. januára 2027. Breznianske námestie sa premení na miesto plné zimnej atmosféry, svetiel, hudby a radosti. Súčasťou mestečka bude exteriérové klzisko, vianočné trhy s gastrostánkami a pestrý sprievodný program. Na svoje si prídu aj najmenší návštevníci, ktorých potešia maskoti a zážitkové jazdy Ľadovým Drakovláčikom. Ľadové mestečko sa tak stane ideálnym miestom na spoločné chvíle s rodinou a priateľmi počas vianočných a novoročných sviatkov.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/ladovy-drakovlacik.webp" alt="Ľadový Drakovláčik v Brezne" title="Ľadový Drakovláčik v Brezne" onclick="toggleZoom(this)" loading="lazy">
+		<p class="photo-credit">Foto: OOCR REGIÓN HOREHRONIE</p>
+	</div>
+	<br>
+	<p>Advent na Horehroní ponúkne viac než len tradičné vianočné trhy. Je pozvánkou objavovať lokálnu tvorbu, podporovať regionálnych výrobcov, spoznávať príbehy historických miest a tráviť spoločné chvíle s rodinou či priateľmi<strong>. </strong>Príďte si vychutnať advent v Brezne a odneste si z Horehronia zážitky, ktoré spríjemnia čakanie na Vianoce.</p>
+	<p>Ak vás Horehronie zaujalo, navštívte <a href="https://horehronie.sk/" target="_blank">https://horehronie.sk/</a>.</p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Košický kraj pod stromčekom - darčeky s príbehom, advent s tradíciou</b></h2>
+	<p>Za darčekom z <strong>Košického kraja</strong> môžete nájsť rodinný príbeh, ruky hrnčiarky aj obnovené remeslo. <strong>Darujte tento rok kúsok východu</strong> a spoznajte ľudí, ktorí mu dávajú chuť, vôňu a tvar.</p>
+	<p>V košickej rodinnej firme <strong><a href="https://zingidrink.com/" target="_blank">ZINGI</a></strong> sa láska k zázvoru premieňa na nápoj v ručne plnených a zdobených fľašiach. V Háji zas <strong>hrnčiarka <a href="https://www.remeselnickyinkubator.sk/amalia-holikova" target="_blank">Amália Holíková</a></strong> tvaruje hlinu na hrnčeky, džbány a dekorácie. Každý kúsok prejde jej rukami a do domácnosti prinesie osobitý dotyk remesla.</p>
+	<p>V <strong>Centre gemerského remesla <a href="https://www.gemcraft.sk/" target="_blank">GemCraft</a></strong> v Štítniku sa po 26 rokoch opäť ručne fúka sklo. Krehké vianočné ozdoby si môžete kúpiť, alebo si počas workshopu dokonca vytvoriť vlastné. Obdarovanému tak venujete i čas, ktorý ste strávili ich výrobou.</p>
+	<p>Chuť regiónu pod stromček prinesú pivné <strong>špeciály rožňavského pivovaru <a href="https://www.kaltenecker.sk/" target="_blank">Kaltenecker</a></strong> či <strong><a href="https://www.tokajregnum.sk/" target="_blank">tokajské vína</a></strong> od suchých po sladké. <strong><a href="https://zlatynektar.sk/" target="_blank">Zlatý nektár</a> z Medzibodrožia </strong>ponúka medy, medoviny aj sviečky z včelieho vosku. Voňavé potešenie nájdete <strong>na levanduľovej farme <a href="https://www.levandulovafarma.com/obchod/" target="_blank">BeLavande</a></strong> na dolnom Zemplíne – na výber máte mydlá, oleje, sviečky, kozmetiku alebo darčekové balíčky.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/zlaty_nektar.webp" alt="Zlatý nektár z Medzibodrožia" title="Zlatý nektár z Medzibodrožia" onclick="toggleZoom(this)" loading="lazy">
+		<p class="photo-credit">Foto: Košice Región Turizmus</p>
+	</div>
+	<br>
+	<p>Viac lokálnych darčekov na jednom mieste objavíte v <strong><a href="https://org.kosiceregion.com/informacny-bod/" target="_blank">Regionálnom informačnom bode</a></strong> na Hlavnej ulici v Košiciach. Vyberať môžete z kožených výrobkov, ručne robených šperkov, tričiek i detských darčekov z krajiny Haravara.</p>
+	<p>Za remeslom sa však oplatí aj vycestovať. V <strong>GemCrafte v Štítniku </strong>si 5. decembra od 13.30 do 16.00 h vyskúšate fúkanie, striebrenie a maľovanie sklenených ozdôb. Kapacita je obmedzená, registrácia je potrebná na <a href="mailto:info@gemart.sk">info@gemart.sk</a>.</p>
+	<p><strong>Vianoce v múzeu v Gelnici </strong>vytvoria 6. decembra od 14.00 do 18.00 h v Baníckom múzeu priestor pre ručne vyrábané darčeky. <strong>Gemerské remeselné vianočné trhy v Betliari </strong>zase od 18. do 20. decembra spoja v parku pred Obecným úradom remeselné stánky s koledami, tvorivými dielňami, vianočným kinom Úsvit a dobročinnou kapustnicou. </p>
+	<p>Hľadáte viac tipov a inšpirácií? Odporúčame <a href="https://www.kosiceregion.com/sk/" target="_blank">https://www.kosiceregion.com/sk/</a>.</p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Severný Spiš vo sviatočnom šate</b></h2>
+	<p>Objavte čaro adventu a Vianoc na <strong>severnom Spiši</strong>, kde sa sviatočná atmosféra spája s remeslami, živými tradíciami, rozprávkovými príbehmi aj jedinečnými miestami. Mestá a obce regiónu počas decembra ožijú vianočnými trhmi, vôňou punču a lokálnych špecialít. </p>
+	<p>Už 6. decembra privíta návštevníkov <strong>vianočná atmosféra v Chmeľnici</strong>, ktorá je známa zachovanými zvykmi a pohostinnosťou. 9. decembra si v <strong>Dome mešťana v Starej Ľubovni</strong> môžete počas <strong>tvorivého workshopu</strong> vyrobiť vlastnú vianočnú girlandu a 11. a 12. decembra sa <strong>centrum Starej Ľubovne premení na sviatočné miesto</strong> plné remeselníkov, drevených výrobkov a vianočných ozdôb. Predvianočné nákupy si môžete užiť i 19. decembra vo <strong>Vyšných Ružbachoch a Spišskej Starej Vsi</strong>, kde nájdete <strong>originálne výrobky </strong>od miestnych tvorcov.</p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/dsc_5438.webp" alt="Vianočné trhy na severnom Spiši" title="Vianočné trhy na severnom Spiši" onclick="toggleZoom(this)" loading="lazy">
+	</div>
+	<br>
+	<p>Advent však nemusí byť iba o ruchu vianočných trhov. <strong>Pokojnejšie zastavenie</strong> ponúka <strong>Betlehem Jána Pavla II. VĎAČNOSŤ v Litmanovej</strong>, ktorý sa nachádza pod Horou Zvir, známym pútnickým miestom. Umelecké dielo vytvorené s úctou k tradícii a viere v spojení s okolitou prírodou vytvára príjemný priestor na chvíľu pokoja a zamyslenia počas sviatočného obdobia.</p>
+	<p><strong>Tradičné spišské Vianoce</strong> boli odjakživa späté s koledami, obradmi, ľudovými zvykmi a spoločnými zimnými večermi. Práve túto atmosféru priblíži 12. decembra <strong>Skanzen pod Hradom Ľubovňa</strong> počas <strong>podujatia „Jak še v seli cmilo“</strong>. Návštevníci spoznajú, ako kedysi vyzerali zimné večery na spišskej dedine, keď sa dralo perie, priadlo a rozprávali príbehy. Od 15. do 17. decembra sa sviatočná atmosféra presunie aj na<strong> Hrad Ľubovňa</strong>, kde sa uskutočnia <strong>špeciálne prehliadky</strong> (dostupné na objednávku) <strong>Čarovné Vianoce</strong>. Sviatočné tradície budú pokračovať i po Vianociach, 27. decembra sa vo vzácnom drevenom chráme z Matysovej v skanzene rozoznejú tradičné vianočné koledy.</p>
+	<p>Na svoje si prídu aj rodiny s deťmi, 19. a 20. a 26. a 27. decembra ožije <strong>Nestville Park v Hniezdnom vianočným predstavením</strong> inšpirovaným obľúbenou rozprávkou „Čerty nejsou žerty“. Sviatočné zážitky budú pokračovať i medzi Vianocami a Silvestrom, keď sa od 28. do 30. decembra <strong>Hrad Ľubovňa</strong> premení na rozprávkový svet a ponúkne <strong>Rozprávkové Vianoce</strong> pre malých i veľkých návštevníkov.</p>
+	<p>Tipy a inšpirácie na výlety z celého regiónu sú pre vás pripravená na <a href="https://visitspis.sk/" target="_blank">https://visitspis.sk/</a>.<br/></p>
+
+</div>
+
+<div class="section">
+
+	<h2><b>Advent na Šariši je v znamení handmade trhov, lokálnych darčekov a vianočnej atmosféry</b></h2>
+	<p>December na <strong>Šariši </strong>vonia medovníkmi, vareným vínom a včelím voskom. Ak hľadáte darček s príbehom, aký v žiadnom obchodnom centre nekúpite, vyberte sa na východ Slovenska.</p>
+	<p>Tieto Vianoce prinášajú do <strong>Prešova </strong>premiéru. V sobotu 19. decembra 2026 sa v PKO Čierny Orol na Hlavnej ulici uskutočnia <strong>prvé Remeselné vianočné trhy s úsmevom</strong>. Historická sála sa na jeden deň premení na miesto plné originálnej tvorby, kde stretnete regionálnych handmade a remeselných tvorcov. Trhy sú v interiéri, takže vás nezaskočí mráz ani sneh, jednosmerná trasa vás pohodlne prevedie popri všetkých vystavovateľoch. Čakajú vás remeselné workshopy, kde si niečo vyrobíte vlastnými rukami, bohatý program pre deti aj vianočná hudba. </p>
+	<p>Adventnú atmosféru si však užijete i pod holým nebom. <strong>Najväčšie vianočné trhy v regióne Šariš sa konajú v Prešove, Sabinove a Bardejove</strong>. Prešovské trhy sa tradične otvárajú na Katarínu, kedy centrum mesta zaplnia stánky s remeselným tovarom, punčom a domácimi dobrotami. V Bardejove si vianočnú náladu vychutnáte na Radničnom námestí zapísanom do zoznamu UNESCO, v Sabinove v kulisách historického centra Oskarového mesta. </p>
+	<div class="lazy-load-image defaultimg">
+		<img src="https://files.slovakia.travel/blog/dec-2026/katkakoscova_pvt24-46.webp" alt="Vianočné trhy v Prešove" title="Vianočné trhy v Prešove" onclick="toggleZoom(this)" loading="lazy">
+	</div>
+	<br>
+	<p>Chcete darček, ktorý poteší a zároveň podporí miestnych výrobcov? Zastavte sa v <strong>Turistickom informačnom centre OOCR Región Šariš</strong> na Hlavnej ulici v Prešove. Nájdete tu <strong>regionálne produkty</strong>, ktoré sa hodia pod stromček aj na stromček - ručne robené ozdoby, originálne obrazy z čipky či darčeky s folklórnou tematikou. Mnohé nesú značku <strong>Regionálny produkt Šariš</strong>, ktorá zaručuje regionálny pôvod, kvalitu a remeselnú tradíciu. Všetkých držiteľov značky nájdete na <strong><a href="http://www.vyrobenenasarisi.sk/" target="_blank">www.vyrobenenasarisi.sk</a>.</strong></p>
+	<p>Viac o regióne Šariš si prečítate na <a href="https://www.regionsaris.sk/" target="_blank">https://www.regionsaris.sk/</a></p>
+
+</div>
+
+<br>
+
+<script> // ZOOM pre container-3 let zoomWrapper = null; function toggleZoom(originalImg) { const overlay = document.getElementById('overlay-3'); if (zoomWrapper) { zoomWrapper.remove(); zoomWrapper = null; overlay.classList.remove('active'); return; } // Wrapper pre obrázok + titulok const wrapper = document.createElement('div'); wrapper.className = 'zoom-wrapper'; const img = originalImg.cloneNode(true); img.classList.add('zoomed'); wrapper.appendChild(img); const title = originalImg.getAttribute('title'); if (title) { const caption = document.createElement('div'); caption.className = 'zoom-caption'; caption.textContent = title; wrapper.appendChild(caption); } document.body.appendChild(wrapper); zoomWrapper = wrapper; overlay.classList.add('active'); } document.getElementById('overlay-3').addEventListener('click', () =&gt; { zoomWrapper?.remove(); zoomWrapper = null; document.getElementById('overlay-3').classList.remove('active'); }); // Zobraziť viac a menej function toggleContent(button) { var content = button.previousElementSibling; // Získame skrytý obsah pred tlačidlom // Skontrolujeme, či je obsah skrytý alebo zobrazený if (content.style.display === 'none' || content.style.display === '') { content.style.display = 'block'; // Zobrazíme skrytý obsah button.innerHTML = '&lt; Zobraziť menej'; // Zmena textu tlačidla } else { content.style.display = 'none'; // Skryjeme obsah button.innerHTML = 'Zobraziť viac &gt;'; // Zmena textu tlačidla } }</script>
+<!-- ===== KONIEC HTML NA VLOŽENIE ===== -->
+</main>
+</body>
+</html>
