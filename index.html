@@ -122,11 +122,12 @@ img { max-width: 100%; }  /* globálne pravidlo webu slovakia.travel (stĺpec č
 		cursor: zoom-in;
 	}
 
-	.photo-credit {
-		font-size: 12px;
+	/* Zdroj fotky: väčší a na stred */
+	div.section p.photo-credit {
+		font-size: 14px;
 		color: #666;
-		text-align: right;
-		margin-top: 5px;
+		text-align: center;
+		margin-top: 8px;
 	}
 
 	/* Kontainer pre TRI obrázky */
@@ -375,7 +376,7 @@ img { max-width: 100%; }  /* globálne pravidlo webu slovakia.travel (stĺpec č
 	<p>Námestie pred obecným úradom vo <strong>Vysokej nad Kysucou</strong> ožije 5. decembra 2026 <strong>Adventnými trhmi</strong> spojenými s príchodom Mikuláša. Program sa začne o 12.30 h. Predstavia sa Ľudová hudba Muzička spod Grúňa, Dievčence z Vysokej a Folklórna skupina Karlovianka z Veľkých Karlovíc. Súčasťou bude vianočné pásmo žiakov ZŠ s MŠ E. A. Cernana a vianočný koncert skupiny TRACE z Čadce.</p>
 	<p><strong>Remeselnícky jarmok</strong> zase ponúkne typický vianočný tovar. K sviatočnému výletu budú patriť aj zabíjačkové výrobky a špeciality, kapustnica, punč a varené víno. O 17.00 h príde Mikuláš so sprievodom anjelov a čertov, rozdá deťom balíčky a rozsvieti vianočný stromček pred obecným úradom.</p>
 	<p>V nedeľu 6. decembra 2026 sa detské očká rozžiaria i pred Obecným úradom v <strong>Klokočove</strong>, kde sa uskutoční podujatie <strong>Mikuláš v obci Klokočov</strong>, spojené s <strong>vianočnými trhmi</strong>. V programe vystúpia Folklórna skupina Klokočov, deti zo ZŠ, MŠ a CVČ aj heligónkári. Nebude chýbať príchod svätého Mikuláša, rozsvietenie vianočného stromčeka a rozdávanie darčekov deťom. Stánky ponúknu domáce špeciality, vianočné dobroty a občerstvenie. </p>
-	<p>Viac inšpirácie na výlety a pobyty sú dostupné na <a href="https://www.regionkysuce.sk/sk/" target="_blank">https://www.regionkysuce.sk/sk/</a>.</p>
+	<p>Ďalšie inšpirácie na výlety a pobyty sú dostupné na <a href="https://www.regionkysuce.sk/sk/" target="_blank">https://www.regionkysuce.sk/sk/</a>.</p>
 
 </div>
 
@@ -442,7 +443,7 @@ img { max-width: 100%; }  /* globálne pravidlo webu slovakia.travel (stĺpec č
 	<p>Advent však nemusí byť iba o ruchu vianočných trhov. <strong>Pokojnejšie zastavenie</strong> ponúka <strong>Betlehem Jána Pavla II. VĎAČNOSŤ v Litmanovej</strong>, ktorý sa nachádza pod Horou Zvir, známym pútnickým miestom. Umelecké dielo vytvorené s úctou k tradícii a viere v spojení s okolitou prírodou vytvára príjemný priestor na chvíľu pokoja a zamyslenia počas sviatočného obdobia.</p>
 	<p><strong>Tradičné spišské Vianoce</strong> boli odjakživa späté s koledami, obradmi, ľudovými zvykmi a spoločnými zimnými večermi. Práve túto atmosféru priblíži 12. decembra <strong>Skanzen pod Hradom Ľubovňa</strong> počas <strong>podujatia „Jak še v seli cmilo“</strong>. Návštevníci spoznajú, ako kedysi vyzerali zimné večery na spišskej dedine, keď sa dralo perie, priadlo a rozprávali príbehy. Od 15. do 17. decembra sa sviatočná atmosféra presunie aj na<strong> Hrad Ľubovňa</strong>, kde sa uskutočnia <strong>špeciálne prehliadky</strong> (dostupné na objednávku) <strong>Čarovné Vianoce</strong>. Sviatočné tradície budú pokračovať i po Vianociach, 27. decembra sa vo vzácnom drevenom chráme z Matysovej v skanzene rozoznejú tradičné vianočné koledy.</p>
 	<p>Na svoje si prídu aj rodiny s deťmi, 19. a 20. a 26. a 27. decembra ožije <strong>Nestville Park v Hniezdnom vianočným predstavením</strong> inšpirovaným obľúbenou rozprávkou „Čerty nejsou žerty“. Sviatočné zážitky budú pokračovať i medzi Vianocami a Silvestrom, keď sa od 28. do 30. decembra <strong>Hrad Ľubovňa</strong> premení na rozprávkový svet a ponúkne <strong>Rozprávkové Vianoce</strong> pre malých i veľkých návštevníkov.</p>
-	<p>Tipy a inšpirácie na výlety z celého regiónu sú pre vás pripravená na <a href="https://visitspis.sk/" target="_blank">https://visitspis.sk/</a>.<br/></p>
+	<p>Tipy a inšpirácie na výlety z celého regiónu sú pre vás pripravené na <a href="https://visitspis.sk/" target="_blank">https://visitspis.sk/</a>.<br/></p>
 
 </div>
 
@@ -463,7 +464,68 @@ img { max-width: 100%; }  /* globálne pravidlo webu slovakia.travel (stĺpec č
 
 <br>
 
-<script> // ZOOM pre container-3 let zoomWrapper = null; function toggleZoom(originalImg) { const overlay = document.getElementById('overlay-3'); if (zoomWrapper) { zoomWrapper.remove(); zoomWrapper = null; overlay.classList.remove('active'); return; } // Wrapper pre obrázok + titulok const wrapper = document.createElement('div'); wrapper.className = 'zoom-wrapper'; const img = originalImg.cloneNode(true); img.classList.add('zoomed'); wrapper.appendChild(img); const title = originalImg.getAttribute('title'); if (title) { const caption = document.createElement('div'); caption.className = 'zoom-caption'; caption.textContent = title; wrapper.appendChild(caption); } document.body.appendChild(wrapper); zoomWrapper = wrapper; overlay.classList.add('active'); } document.getElementById('overlay-3').addEventListener('click', () =&gt; { zoomWrapper?.remove(); zoomWrapper = null; document.getElementById('overlay-3').classList.remove('active'); }); // Zobraziť viac a menej function toggleContent(button) { var content = button.previousElementSibling; // Získame skrytý obsah pred tlačidlom // Skontrolujeme, či je obsah skrytý alebo zobrazený if (content.style.display === 'none' || content.style.display === '') { content.style.display = 'block'; // Zobrazíme skrytý obsah button.innerHTML = '&lt; Zobraziť menej'; // Zmena textu tlačidla } else { content.style.display = 'none'; // Skryjeme obsah button.innerHTML = 'Zobraziť viac &gt;'; // Zmena textu tlačidla } }</script>
+<script>
+/* Zväčšenie fotky po kliknutí (toggleZoom) a Zobraziť viac/menej (toggleContent).
+   Funguje aj v jednom riadku: bez komentárov s dvoma lomkami a bez znakov menší, väčší, ampersand. */
+var zoomWrapper = null;
+
+function closeZoom() {
+	if (zoomWrapper) {
+		zoomWrapper.remove();
+		zoomWrapper = null;
+	}
+	var overlay = document.getElementById('overlay-3');
+	if (overlay) {
+		overlay.classList.remove('active');
+	}
+}
+
+function toggleZoom(originalImg) {
+	if (zoomWrapper) {
+		closeZoom();
+		return;
+	}
+	var wrapper = document.createElement('div');
+	wrapper.className = 'zoom-wrapper';
+	var img = originalImg.cloneNode(true);
+	img.removeAttribute('onclick');
+	img.removeAttribute('loading');
+	img.classList.add('zoomed');
+	wrapper.appendChild(img);
+	var title = originalImg.getAttribute('title');
+	if (title) {
+		var caption = document.createElement('div');
+		caption.className = 'zoom-caption';
+		caption.textContent = title;
+		wrapper.appendChild(caption);
+	}
+	wrapper.onclick = closeZoom;
+	document.body.appendChild(wrapper);
+	zoomWrapper = wrapper;
+	var overlay = document.getElementById('overlay-3');
+	if (overlay) {
+		overlay.onclick = closeZoom;
+		overlay.classList.add('active');
+	}
+}
+
+document.addEventListener('keydown', function (e) {
+	if (e.key === 'Escape') {
+		closeZoom();
+	}
+});
+
+function toggleContent(button) {
+	var content = button.previousElementSibling;
+	if (content.style.display === 'none' || content.style.display === '') {
+		content.style.display = 'block';
+		button.textContent = '\u003C Zobraziť menej';
+	} else {
+		content.style.display = 'none';
+		button.textContent = 'Zobraziť viac \u003E';
+	}
+}
+</script>
 <!-- ===== KONIEC HTML NA VLOŽENIE ===== -->
 </main>
 </body>
